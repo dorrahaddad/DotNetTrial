@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ProjectEstimationAPI.Controllers.ProjectsController",
+    "Method": "GetProjects",
+    "RelativePath": "api/Projects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectEstimationAPI.Controllers.ProjectsController",
+    "Method": "AddProject",
+    "RelativePath": "api/Projects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "ProjectEstimationAPI.Models.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
